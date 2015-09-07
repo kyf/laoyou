@@ -2,20 +2,22 @@ package main
 
 import (
 	"fmt"
+	"github.com/go-martini/martini"
 	"net/http"
+	"strings"
 )
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("server is running ...")
+	m := martini.Classic()
+	m.Post("/", func(r *http.Request) string {
 		r.ParseForm()
+		result := make([]string, 0)
 		for k, v := range r.Form {
-			w.Write([]byte(fmt.Sprintf("%v=%v", k, v)))
+			result = append(result, fmt.Sprintf("%v=%v", k, v))
 		}
+		return strings.Join(result, "\n")
 	})
 
-	fmt.Println("server is running ...")
-	err := http.ListenAndServe(":1472", nil)
-	if err != nil {
-		fmt.Println("listen error : ", err)
-	}
+	m.Run()
 }
