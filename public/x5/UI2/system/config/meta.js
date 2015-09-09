@@ -1,1 +1,1 @@
-window.__justep.__justepMeta = null;
+window.__justep.__justepMeta = {newUI: ["/UI2"], classicUI: [], versions: {__platform: "3871","/UI2/demo":"3871_no_","/UI2/hello":"3871_no_","/UI2/portal":"3871_no_","/UI2/system":"3871_1_0_","/UI2/takeout":"3871_no_"}};

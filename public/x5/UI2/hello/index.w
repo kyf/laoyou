@@ -17,7 +17,7 @@
     	</script>
         <div id="applicationHost" class="applicationHost" style="width:100%;height:100%;" __component-context__="block"><div component="$model/UI2/system/components/justep/window/window" design="device:mobile" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" components="$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input," css="">  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}"></div>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}"> 
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pe59739479afa48b6bc4e69dff3645268-iosstatusbar" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}"> 
     <div class="x-panel-top" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;创建好友圈&#34;}"> 
         <div class="x-titlebar-left"></div>  
@@ -42,7 +42,7 @@
         </div> 
       </div>
     </div>  
-    <style>.x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa8cb8c7f77b443c2b7634efe33d533e3-iosstatusbar >.x-panel-content {top: 48px;}</style>
+    <style>.x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe59739479afa48b6bc4e69dff3645268-iosstatusbar >.x-panel-content {top: 48px;}</style>
   </div> 
 </div></div>
         
