@@ -1,4 +1,4 @@
-create database laoyou
+create database laoyou;
 
 use laoyou
 
