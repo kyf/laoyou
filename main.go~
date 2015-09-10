@@ -14,7 +14,7 @@ func main() {
 
 	for _, h := range handlers {
 		if method, ok := h["method"].(string); ok {
-			switch method {
+			switch h["method"] {
 			case METHOD_POST:
 				if p, ok := h["path"].(string); ok {
 					m.Post(p, h["handler"])
